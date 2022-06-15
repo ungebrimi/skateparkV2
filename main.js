@@ -197,7 +197,7 @@ gltfLoader.load(
 )
 
 // Transparant box around obstacels
-const communityBox = new THREE.Mesh(
+const comunnitybox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(8, 2, 8),
     new THREE.MeshBasicMaterial(
         {
@@ -208,13 +208,13 @@ const communityBox = new THREE.Mesh(
         }
     )
 )
-group.add(communityBox)
-communityBox.position.x = 48.1
-communityBox.position.y = 1.18
-communityBox.position.z = 10
+group.add(comunnitybox)
+comunnitybox.position.x = 48.1
+comunnitybox.position.y = 1.18
+comunnitybox.position.z = 10
 
 
-const RailBox = new THREE.Mesh(
+const railbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(20, 2, 2),
     new THREE.MeshBasicMaterial(
         {
@@ -224,12 +224,12 @@ const RailBox = new THREE.Mesh(
         }
     )
 )
-group.add(RailBox)
-RailBox.position.x = 38.1
-RailBox.position.y = 1.18
-RailBox.position.z = -15.7
+group.add(railbox)
+railbox.position.x = 38.1
+railbox.position.y = 1.18
+railbox.position.z = -15.7
 
-const halfPipeBox = new THREE.Mesh(
+const halfpipebox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(12, 3.6, 12),
     new THREE.MeshBasicMaterial(
         {
@@ -239,12 +239,12 @@ const halfPipeBox = new THREE.Mesh(
         }
     )
 )
-group.add(halfPipeBox)
-halfPipeBox.position.x = 65.24
-halfPipeBox.position.y = 1.9
-halfPipeBox.position.z = -14.47
+group.add(halfpipebox)
+halfpipebox.position.x = 65.24
+halfpipebox.position.y = 1.9
+halfpipebox.position.z = -14.47
 
-const ledgeBox = new THREE.Mesh(
+const ledgebox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(15, 2, 4),
     new THREE.MeshBasicMaterial(
         {
@@ -254,12 +254,12 @@ const ledgeBox = new THREE.Mesh(
         }
     )
 )
-group.add(ledgeBox)
-ledgeBox.position.x = 37.85
-ledgeBox.position.y = 1.18
-ledgeBox.position.z = -25.38
+group.add(ledgebox)
+ledgebox.position.x = 37.85
+ledgebox.position.y = 1.18
+ledgebox.position.z = -25.38
 
-const pyramidBox = new THREE.Mesh(
+const pyramidbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(10, 2, 10),
     new THREE.MeshBasicMaterial(
         {
@@ -269,12 +269,12 @@ const pyramidBox = new THREE.Mesh(
         }
     )
 )
-group.add(pyramidBox)
-pyramidBox.position.x = -5.35
-pyramidBox.position.y = 1.18
-pyramidBox.position.z = -4.04
+group.add(pyramidbox)
+pyramidbox.position.x = -5.35
+pyramidbox.position.y = 1.18
+pyramidbox.position.z = -4.04
 
-const stairRailBox = new THREE.Mesh(
+const stairrailbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(10, 3, 10),
     new THREE.MeshBasicMaterial(
         {
@@ -284,12 +284,12 @@ const stairRailBox = new THREE.Mesh(
         }
     )
 )
-group.add(stairRailBox)
-stairRailBox.position.x = 31.16
-stairRailBox.position.y = 2.2
-stairRailBox.position.z = 14.21
+group.add(stairrailbox)
+stairrailbox.position.x = 31.16
+stairrailbox.position.y = 2.2
+stairrailbox.position.z = 14.21
 
-const stairBox = new THREE.Mesh(
+const stairbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(10, 3, 10),
     new THREE.MeshBasicMaterial(
         {
@@ -299,13 +299,13 @@ const stairBox = new THREE.Mesh(
         }
     )
 )
-group.add(stairBox)
-stairBox.position.x = 23.34
-stairBox.position.y = 1.4
-stairBox.position.z = -5.35
+group.add(stairbox)
+stairbox.position.x = 23.34
+stairbox.position.y = 1.4
+stairbox.position.z = -5.35
 
 
-const quarterpipeBox = new THREE.Mesh(
+const quarterpipebox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(17, 5, 70),
     new THREE.MeshBasicMaterial(
         {
@@ -315,12 +315,12 @@ const quarterpipeBox = new THREE.Mesh(
         }
     )
 )
-group.add(quarterpipeBox)
-quarterpipeBox.position.x = -34
-quarterpipeBox.position.y = 2.1
-quarterpipeBox.position.z = 11.6
+group.add(quarterpipebox)
+quarterpipebox.position.x = -34
+quarterpipebox.position.y = 2.1
+quarterpipebox.position.z = 11.6
 
-const funboxBox = new THREE.Mesh(
+const funboxbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(15, 3, 7),
     new THREE.MeshBasicMaterial(
         {
@@ -330,12 +330,12 @@ const funboxBox = new THREE.Mesh(
         }
     )
 )
-group.add(funboxBox)
-funboxBox.position.x = 16.3
-funboxBox.position.y = 1.7
-funboxBox.position.z = -23.6
+group.add(funboxbox)
+funboxbox.position.x = 16.3
+funboxbox.position.y = 1.7
+funboxbox.position.z = -23.6
 
-const ledgeupBox = new THREE.Mesh(
+const ledgeupbox = new THREE.Mesh(
     new THREE.BoxBufferGeometry(15, 3, 15),
     new THREE.MeshBasicMaterial(
         {
@@ -345,10 +345,10 @@ const ledgeupBox = new THREE.Mesh(
         }
     )
 )
-group.add(ledgeupBox)
-ledgeupBox.position.x = -11.86
-ledgeupBox.position.y = 1.8
-ledgeupBox.position.z = 25.95
+group.add(ledgeupbox)
+ledgeupbox.position.x = -11.86
+ledgeupbox.position.y = 1.8
+ledgeupbox.position.z = 25.95
 
 // add all objects to the Scene
 scene.add(group)
@@ -376,16 +376,16 @@ window.addEventListener('mousemove', (event) =>
 // add all the object in array
 const objectsToIntersect = 
 [
-    communityBox,
-    RailBox,
-    halfPipeBox,
-    ledgeBox,
-    pyramidBox,
-    stairRailBox,
-    stairBox,
-    quarterpipeBox,
-    funboxBox,
-    ledgeupBox
+    comunnitybox,
+    railbox,
+    halfpipebox,
+    ledgebox,
+    pyramidbox,
+    stairrailbox,
+    stairbox,
+    quarterpipebox,
+    funboxbox,
+    ledgeupbox
 ]
 
 // event listener pages
@@ -395,74 +395,74 @@ window.addEventListener('mousedown', () =>
     {
         switch(currentIntersect.object)
         {
-            case communityBox: 
+            case comunnitybox: 
             window.location.href="pages/community.html"
             break
-            case RailBox: 
+            case railbox: 
             window.location.href="pages/rail.html"
             break
-            case halfPipeBox: 
+            case halfpipebox: 
             window.location.href="pages/halfpipe.html"
             break
-            case ledgeBox: 
+            case ledgebox: 
             window.location.href="pages/ledge.html"
             break
-            case pyramidBox: 
+            case pyramidbox: 
             window.location.href="pages/pyramid.html"
             break
-            case stairRailBox: 
+            case stairrailbox: 
             window.location.href="pages/stairrail.html"
             break
-            case stairBox: 
+            case stairbox: 
             window.location.href="pages/stairs.html"
             break
-            case quarterpipeBox: 
+            case quarterpipebox: 
             window.location.href="pages/quarterpipe.html"
             break
-            case funboxBox: 
+            case funboxbox: 
             window.location.href="pages/funbox.html"
             break
-            case ledgeupBox: 
+            case ledgeupbox: 
             window.location.href="pages/ledgeup.html"
             break
         }
     }
 })
 
-window.addEventListener('hover', () => 
+window.addEventListener('mousehover', () => 
 {
     if(currentIntersect)
     {
         switch(currentIntersect.object)
         {
-            case communityBox: 
+            case comunnitybox: 
             document.body.classList.add("pointer")
             break
-            case RailBox: 
+            case railbox: 
             document.body.classList.add("pointer")
             break
-            case halfPipeBox: 
+            case halfpipebox: 
             document.body.classList.add("pointer")
             break
-            case ledgeBox: 
+            case ledgebox: 
             document.body.classList.add("pointer")
             break
-            case pyramidBox: 
+            case pyramidbox: 
             document.body.classList.add("pointer")
             break
-            case stairRailBox: 
+            case stairrailbox: 
             document.body.classList.add("pointer")
             break
-            case stairBox: 
+            case stairbox: 
             document.body.classList.add("pointer")
             break
-            case quarterpipeBox: 
+            case quarterpipebox: 
             document.body.classList.add("pointer")
             break
-            case funboxBox: 
+            case funboxbox: 
             document.body.classList.add("pointer")
             break
-            case ledgeupBox: 
+            case ledgeupbox: 
             document.body.classList.add("pointer")
             break
         }
